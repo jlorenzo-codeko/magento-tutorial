@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="tab-admin-example" translate="label" class="custom-css" sortOrder="10">
+            <label>Esto es un ejemplo</label>
+        </tab>
+
+
+        <section id="section-admin-example" showInDefault="1" showInWebsite="0" showInStore="1" sortOrder="10" translate="label">
+          <label>section de ejemplo</label>
+          <tab>ejemplo</tab>
+          <resource>Learning_ClothingMaterial::clothingmaterial_config</resource>
+        </section>
+
+    </system>
+</config>
